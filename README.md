@@ -2,6 +2,17 @@
 
 ## Display Filter
 
+### 1. Simpan webserver yang digunakan pada "testing.mekanis.me"!
+```
+http.host == "testing.mekanis.me"
+```
+*buka Follow TCP Stream dengan cara klik kanan pada paket*
+![1a](https://github.com/adamgrbld/Jarkom_Modul1_Lapres_E3/blob/main/Screenshot/1a.png)
+*setelah buka TCP Stream akan terlihat servernya yaitu nginx*
+![1b]((https://github.com/adamgrbld/Jarkom_Modul1_Lapres_E3/blob/main/Screenshot/1b.png)
+
+----
+
 #### 2. Simpan gambar "Tim_Kunjungan_Kerja_BAKN_DPR_RI_ke_Sukabumi141436.jpg"!
 
 ```
@@ -14,6 +25,17 @@ File -> Export Object -> HTTP
 
 ----
 
+#### 3. Cari username dan password ketika login di "ppid.dpr.go.id"!
+```
+http.host contains "ppid.dpr.go.id" && http.request.method == POST
+```
+![3a](https://github.com/adamgrbld/Jarkom_Modul1_Lapres_E3/blob/main/Screenshot/3a.png)
+*buka salah satu paket lalu scroll lalu anda akan menemukan username dan passwordnya*
+![3b](https://github.com/adamgrbld/Jarkom_Modul1_Lapres_E3/blob/main/Screenshot/3b.png)
+![3c](https://github.com/adamgrbld/Jarkom_Modul1_Lapres_E3/blob/main/Screenshot/3c.png)
+
+----
+
 #### 4. Temukan paket dari web-web yang menggunakan basic authentication method!
 
 ```
@@ -23,6 +45,8 @@ http.authbasic
 ![4](https://github.com/adamgrbld/Jarkom_Modul1_Lapres_E3/blob/main/Screenshot/4.png)
 
 ----
+
+#### 5.
 
 #### 6. Seseorang menyimpan file zip melalui FTP dengan nama "Answer.zip". Simpan dan Buka file "Open This.pdf" di Answer.zip. Untuk mendapatkan password zipnya, temukan dalam file zipkey.txt (passwordnya adalah isi dari file txt tersebut).
 
